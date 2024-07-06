@@ -73,6 +73,7 @@ node_modules/
 # Ignore specific file types:
 *.swp
 *.swo
+*.txt
 
 # Ignore database files
 *.db
