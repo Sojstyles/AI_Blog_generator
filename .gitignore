@@ -51,6 +51,7 @@ staticfiles/
 static/
 media/
 node_modules/
+myenv/
 
 # Translations
 *.mo
