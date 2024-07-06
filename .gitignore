@@ -1,0 +1,98 @@
+./requirements.txt
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+*.egg
+*.egg-info/
+dist/
+build/
+eggs/
+lib/
+lib64/
+parts/
+var/
+wheels/
+share/python-wheels/
+pip-wheel-metadata/
+*.manifest
+*.spec
+
+# Django stuff:
+*.log
+*.pot
+*.pyc
+*.mo
+*.pyo
+*.log
+*.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+*.sqlite3
+db.sqlite3
+
+# If your build process includes running collectstatic, this directory should be excluded
+staticfiles/
+static/
+media/
+node_modules/
+
+# Translations
+*.mo
+*.pot
+
+# Django migrations
+*/migrations/*.py
+*/migrations/*.pyc
+
+# Django SQL
+*.sql
+
+# Ignore the following:
+*.log
+*.pot
+*.pyc
+*.mo
+*.pyo
+
+# Ignore specific file types:
+*.swp
+*.swo
+
+# Ignore database files
+*.db
+
+# Ignore pyenv files
+.python-version
+
+# Ignore IDE files
+.vscode/
+.idea/
+
+# Local environment settings
+.env
+.env.local
+.env.*.local
+.env.test
+.env.production
+
+# macOS files
+.DS_Store
+
+# Windows files
+Thumbs.db
